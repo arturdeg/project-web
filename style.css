@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: monospace, sans-serif;
     
 }
 .fondo{
@@ -10,12 +10,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
-    justify-content: baseline;
 
 }
 .main{
-    text-align: left;
+    text-align: center;
     color: rgb(84, 29, 112);
     padding: 20px;
     border-radius: 13px;
@@ -25,25 +25,29 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(83, 4, 94, 0.568);
+    padding: 20px;
+    margin: 15px;
+    border: 25px;
+    background-color: rgba(98, 15, 109, 0.233);
     border-radius: 12px;
     width: 400px;
-    color: rgb(165, 58, 219);
+    color: rgb(212, 149, 243);
 }
 .lista ul{
     text-align: left;
     display: inline-block;
 }
 a{
-    color: rgb(165, 58, 219);
+    color: rgb(209, 137, 245);
     text-decoration: none;
+    font-size: 13px;
 }
 .lista a:hover{
     color: aquamarine;
 }
-@media (max-width: 680px) {
+/* @media (max-width: 680px) {
     .fondo{
         flex-direction: column;
     }
     
-}
+} */
