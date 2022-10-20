@@ -11,15 +11,14 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    justify-content: space-around;
+    justify-content: baseline;
 
 }
 .main{
     text-align: left;
     color: rgb(84, 29, 112);
     padding: 20px;
-    background-color: rgb(167, 58, 221);
-    border-radius: 10vh;
+    border-radius: 13px;
 }
 .lista{
     display: flex;
@@ -28,7 +27,7 @@ body{
     text-align: center;
     background-color: rgba(83, 4, 94, 0.568);
     border-radius: 12px;
-    width: 300px;
+    width: 400px;
     color: rgb(165, 58, 219);
 }
 .lista ul{
