@@ -6,7 +6,7 @@ body{
     
 }
 .fondo{
-    background-color: rgb(211, 155, 0);
+    background-color: rgb(255, 249, 220);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ body{
 }
 .main{
     text-align: center;
-    color: rgb(112, 83, 29);
+    color: darkorange;
     padding: 20px;
     border-radius: 13px;
 }
@@ -28,26 +28,26 @@ body{
     padding: 20px;
     margin: 15px;
     border: 25px;
-    background-color: rgba(109, 68, 15, 0.253);
+    background-color: darkorange;
     border-radius: 12px;
     width: 400px;
-    color: rgb(247, 197, 121);
+    color: rgb(255, 249, 220);
 }
 .lista ul{
     text-align: left;
     display: inline-block;
 }
 a{
-    color: rgb(247, 190, 115);
+    color: rgb(255, 249, 220);
     text-decoration: none;
     font-size: 13px;
 }
 .lista a:hover{
     color: rgb(160, 111, 20);
 }
-/* @media (max-width: 680px) {
+@media (max-width: 680px) {
     .fondo{
         flex-direction: column;
     }
     
-} */
+}
