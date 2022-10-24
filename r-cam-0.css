@@ -22,3 +22,9 @@ header{
     height: 55px;
     margin-right: 0px;
 }
+@media (max-width: 680px) {
+    header{
+        flex-direction: column;
+    }
+    
+}
