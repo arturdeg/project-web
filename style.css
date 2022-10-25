@@ -22,19 +22,22 @@ body{
 }
 .lista{
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */ 
     padding: 20px;
     margin: 15px;
-    border: 25px;
     background-color: darkorange;
     border-radius: 12px;
     color: rgb(255, 249, 220);
 }
 .lista ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: left;
-    display: inline-block;
+    margin: 3px;
+    padding: 0px 8px 0px 28px;
 }
 a{
     color: rgb(255, 249, 220);
