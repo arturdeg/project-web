@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    
 }
 a{
     text-decoration: none;
@@ -9,25 +10,80 @@ a{
 header{
     display: flex;
     min-height: 70px;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items:center;
     padding: 5px;
-    background-color: rgb(255, 249, 220);
+    background-color: rgba(244, 247, 88, 0.363);
 }
 .logo{
     display: flex;
     align-items: center;
+    /* text-shadow: 2px 2px 2px  rgb(44, 43, 43); */
 }
 .logo img{
     height: 55px;
     margin-right: 0px;
 }
-@media (max-width: 680px) {
+/* @media screen and (max-width: 680px) {
     header{
         flex-direction: column;
     }
+    .container{
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+    }
+} */
+.container{
+    display: flex;
+    background-image: url(https://img.freepik.com/foto-gratis/vista-superior-deliciosa-comida-mexicana-lista-ser-servida_23-2148614425.jpg?w=996&t=st=1666834464~exp=1666835064~hmac=7dfa5fc0b63ab35840463806193734505af9f10ea0f871a91b14628ef8b236be);
+    background-color: black;
+    flex-direction: column;
+    padding: 0ch;
+    margin: 0ch;
+    
+    align-items: center;
+}
+.titulo-img{
+    text-align: center;
+    margin: 20px;
+    align-self: center;
+    /* background-color: rgba(173, 182, 141, 0.712); */
+    border-radius: 20px 20px 0px 0px;
+}
+.titulo-img h1{
+    /* background-color: rgba(102, 121, 33, 0.76); */
+    
+    padding: auto;
+    margin: 2%;
+    color: rgb(255, 255, 255);
+    cursor: cell;
+    text-shadow: 3px 3px 6px  rgb(44, 43, 43);
     
 }
-.conteiner{
-    
+.titulo-img img{
+    max-width: 100%;
+    height: auto;
+}
+.container2{
+    border-radius: 15px;
+    background-color: rgba(121, 115, 33, 0.521);
+    width: 680px;
+    flex: 2;
+    /* flex-direction: row-reverse; individualidad de cajas  */
+}
+.ingredientes{
+    padding: 2%;
+    margin: 20px;  
+    border-style: solid;
+    border-radius: 20px 0px 0px;
+    background-color: rgb(211, 87, 87);
+}
+.preparacion{
+    padding: 2%;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 0px 0px 20px ;
+    background-color: coral;
 }
