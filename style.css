@@ -6,7 +6,8 @@ body{
     
 }
 .fondo{
-    background-color: rgb(0, 0, 0);
+    background-image: url(https://images2.alphacoders.com/790/790657.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +17,8 @@ body{
 }
 .main{
     text-align: center;
-    color: darkorange;
+    color: rgb(255, 254, 254);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
     padding: 20px;
     border-radius: 13px;
 }
