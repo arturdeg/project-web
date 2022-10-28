@@ -13,7 +13,7 @@ header{
     justify-content: left;
     align-items:center;
     padding: 5px;
-    background-color: rgba(244, 247, 88, 0.363);
+    background-color: rgb(0, 0, 0);
 }
 .logo{
     display: flex;
@@ -24,21 +24,19 @@ header{
     height: 55px;
     margin-right: 0px;
 }
-/* @media screen and (max-width: 680px) {
+@media screen and (max-width: 680px) {
     header{
         flex-direction: column;
     }
-    .container{
-        width: 100%;
-    }
     .container2{
-        width: 100%;
+        width: 100px;
+
     }
-} */
+}
 .container{
     display: flex;
-    background-image: url(https://img.freepik.com/foto-gratis/vista-superior-deliciosa-comida-mexicana-lista-ser-servida_23-2148614425.jpg?w=996&t=st=1666834464~exp=1666835064~hmac=7dfa5fc0b63ab35840463806193734505af9f10ea0f871a91b14628ef8b236be);
-    background-color: black;
+    background-image: url(https://img.freepik.com/foto-gratis/fotografia-primer-plano-plato-base-gambas-al-ajillo_53876-104575.jpg?w=740&t=st=1666915052~exp=1666915652~hmac=d2177a048f23cfd27fd84e636908946300093c52b468f84e8ac9754e66179e94);
+    background-size: cover;
     flex-direction: column;
     padding: 0ch;
     margin: 0ch;
@@ -53,8 +51,8 @@ header{
     border-radius: 20px 20px 0px 0px;
 }
 .titulo-img h1{
-    /* background-color: rgba(102, 121, 33, 0.76); */
-    
+    background-color: rgba(216, 137, 18, 0.582);
+    border-radius: 20px;
     padding: auto;
     margin: 2%;
     color: rgb(255, 255, 255);
@@ -68,7 +66,7 @@ header{
 }
 .container2{
     border-radius: 15px;
-    background-color: rgba(121, 115, 33, 0.521);
+    background-color: rgba(206, 138, 36, 0.418);
     width: 680px;
     flex: 2;
     /* flex-direction: row-reverse; individualidad de cajas  */
@@ -77,6 +75,11 @@ header{
     padding: 2%;
     margin: 20px;  
     border-style: solid;
+    border-color: rgb(255, 102, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-image: url(https://img.freepik.com/fotos-premium/mesa-madera-vacia-humo-flotando-sobre-fondo-oscuro_68495-135.jpg?w=740);
+    background-size: cover;
     border-radius: 20px 0px 0px;
     background-color: rgb(211, 87, 87);
 }
@@ -84,6 +87,11 @@ header{
     padding: 2%;
     margin: 20px;
     border-style: solid;
+    border-color: rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-image: url(https://img.freepik.com/fotos-premium/mesa-madera-vacia-humo-flotando-sobre-fondo-oscuro_68495-135.jpg?w=740);
+    background-size: cover;
     border-radius: 0px 0px 20px ;
     background-color: coral;
 }
