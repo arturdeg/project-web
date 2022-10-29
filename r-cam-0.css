@@ -24,15 +24,7 @@ header{
     height: 55px;
     margin-right: 0px;
 }
-@media screen and (max-width: 680px) {
-    header{
-        flex-direction: column;
-    }
-    .container2{
-        width: 100px;
 
-    }
-}
 .container{
     display: flex;
     background-image: url(https://img.freepik.com/foto-gratis/fotografia-primer-plano-plato-base-gambas-al-ajillo_53876-104575.jpg?w=740&t=st=1666915052~exp=1666915652~hmac=d2177a048f23cfd27fd84e636908946300093c52b468f84e8ac9754e66179e94);
@@ -81,7 +73,6 @@ header{
     background-image: url(https://img.freepik.com/fotos-premium/mesa-madera-vacia-humo-flotando-sobre-fondo-oscuro_68495-135.jpg?w=740);
     background-size: cover;
     border-radius: 20px 0px 0px;
-    background-color: rgb(211, 87, 87);
 }
 .preparacion{
     padding: 2%;
@@ -93,5 +84,13 @@ header{
     background-image: url(https://img.freepik.com/fotos-premium/mesa-madera-vacia-humo-flotando-sobre-fondo-oscuro_68495-135.jpg?w=740);
     background-size: cover;
     border-radius: 0px 0px 20px ;
-    background-color: coral;
+}
+@media screen and (max-width: 680px) {
+    header{
+        flex-direction: column;
+    }
+    .container2{
+        width: 99%;
+
+    }
 }
